@@ -6,7 +6,7 @@ import numpy as np
 from scipy import optimize
 
 
-df = pd.read_csv("hnfl_2023_schedule.csv")
+df = pd.read_csv("nfl_2023_schedule.csv")
 df['playoffs'] = playoffs
 dflines = pd.read_csv("NFL_totalwins_betting.csv")
 teams = list(dflines["Team"])
